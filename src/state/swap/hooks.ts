@@ -149,10 +149,10 @@ export function useDerivedSwapInfo(doArcher = false): {
     recipient,
   } = useSwapState()
 
+  console.log(inputCurrencyId, outputCurrencyId)
   const inputCurrency = useCurrency(inputCurrencyId)
 
   const outputCurrency = useCurrency(outputCurrencyId)
-
   const recipientLookup = useENS(recipient ?? undefined)
 
   const to: string | null = (recipient === null ? account : recipientLookup.address) ?? null
@@ -344,7 +344,7 @@ export function queryParametersToSwapState(parsedQs: ParsedQs, chainId: ChainId 
   let inputCurrency = parseCurrencyFromURLParameter(parsedQs.inputCurrency)
   let outputCurrency = parseCurrencyFromURLParameter(parsedQs.outputCurrency)
   const eth = chainId === ChainId.CELO ? WNATIVE_ADDRESS[chainId] : 'ETH'
-  const sushi = SUSHI_ADDRESS[chainId]
+  const sushi = chainId === ChainId.RINKEBY ? '0xda51bc834202B3dfB73E1fC0B3c191725Db0a714' : undefined //SUSHI_ADDRESS[chainId] refac
   if (inputCurrency === '' && outputCurrency === '') {
     inputCurrency = eth
     outputCurrency = sushi

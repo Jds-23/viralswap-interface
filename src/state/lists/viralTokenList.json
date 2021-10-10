@@ -1,0 +1,30 @@
+{
+  "name": "ViralToken List",
+  "timestamp": "2021-09-08T11:08:40.010Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://raw.githubusercontent.com/Jds-23/crispy-system/main/android-chrome-72x72.png",
+  "keywords": ["viral", "default"],
+  "tokens": [
+    {
+      "name": "ViralToken",
+      "address": "0xF8056FF433aebFb55A450EB1bb098Ab7B238092b",
+      "symbol": "VIRAL",
+      "decimals": 18,
+      "chainId": 3,
+      "logoURI": "https://raw.githubusercontent.com/Jds-23/crispy-system/main/android-chrome-72x72.png"
+    },
+    {
+      "name": "ViralToken",
+      "address": "0xda51bc834202B3dfB73E1fC0B3c191725Db0a714",
+      "symbol": "VIRAL",
+      "decimals": 18,
+      "chainId": 4,
+      "logoURI": "https://raw.githubusercontent.com/Jds-23/crispy-system/main/android-chrome-72x72.png"
+    }
+  ]
+}

@@ -4876,6 +4876,11 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
+base-64@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/base-64/-/base-64-1.0.0.tgz#09d0f2084e32a3fd08c2475b973788eee6ae8f4a"
+  integrity sha512-kwDPIFCGx0NZHog36dj+tHiwP4QMzsZ3AgMViUBKI0+V5n4U0ufTCUMhnQ04diaRI8EX/QcPfql7zlhZ7j4zgg==
+
 base-x@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/base-x/-/base-x-1.1.0.tgz#42d3d717474f9ea02207f6d1aa1f426913eeb7ac"
@@ -5873,6 +5878,11 @@ combined-stream@^1.0.6, combined-stream@^1.0.8, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
+comma-number@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/comma-number/-/comma-number-2.1.0.tgz#0f38eef7293fe5ba4a0de6d1ffd3ea70a5e3e288"
+  integrity sha512-fRcu1c+4yFLFp3tgranEkKPPWRlnkWQXr4p0KBL0WW9Kd2wmbKAoQ2R4rluFm4ubXCtXGybEaFB7r6YgPOnahQ==
+
 commander@*:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-8.1.0.tgz#db36e3e66edf24ff591d639862c6ab2c52664362"
@@ -6129,6 +6139,11 @@ cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.10.0"
+
+countup.js@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/countup.js/-/countup.js-2.0.8.tgz#eca0c31c9db3f7769cba494d9315cd52dbaaf1b9"
+  integrity sha512-pW3xwwD+hB+xmtI16xFcuLS0D5hSQqPQWkZOdgpKQyzxCquDNo2VCFPkRw12vmvdpnicXVTcjmYiakG6biwINg==
 
 crc-32@^1.2.0:
   version "1.2.0"
@@ -13528,6 +13543,18 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-collapsible@^2.8.4:
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/react-collapsible/-/react-collapsible-2.8.4.tgz#319ff7471138c4381ce0afa3ac308ccde7f4e09f"
+  integrity sha512-oG4yOk6AGKswe0OD/8t3/nf4Rgj4UhlZUUvqL5jop0/ez02B3dBDmNvs3sQz0PcTpJvt0ai8zF7Atd1SzN/UNw==
+
+react-countup@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-6.0.0.tgz#463f174781db4bec25de8853335c18ff0a305131"
+  integrity sha512-Q5M8TbtdeSrnK6UaMgZBaV13GZHKsWh5FedzFM9HSWcI48x1SzJ33fCJcX23juLzguwRU3ZtumqlLdCUJdRPfA==
+  dependencies:
+    countup.js "^2.0.8"
+
 react-device-detect@^1.17.0:
   version "1.17.0"
   resolved "https://registry.yarnpkg.com/react-device-detect/-/react-device-detect-1.17.0.tgz#a00b4fd6880cebfab3fd8a42a79dc0290cdddca9"
@@ -13570,6 +13597,11 @@ react-ga@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.3.0.tgz#c91f407198adcb3b49e2bc5c12b3fe460039b3ca"
   integrity sha512-o8RScHj6Lb8cwy3GMrVH6NJvL+y0zpJvKtc0+wmH7Bt23rszJmnqEQxRbyrqUzk9DTJIHoP42bfO5rswC9SWBQ==
+
+react-icons@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.3.1.tgz#2fa92aebbbc71f43d2db2ed1aed07361124e91ca"
+  integrity sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ==
 
 react-infinite-scroll-component@^6.1.0:
   version "6.1.0"
@@ -13644,6 +13676,11 @@ react-shallow-renderer@^16.13.1:
   dependencies:
     object-assign "^4.1.1"
     react-is "^16.12.0 || ^17.0.0"
+
+react-simple-animate@^3.3.12:
+  version "3.3.12"
+  resolved "https://registry.yarnpkg.com/react-simple-animate/-/react-simple-animate-3.3.12.tgz#ddea0f230feb3c1f069fbdb0a26e735e0b233265"
+  integrity sha512-lFXjxD6ficcpOMsHfcDs1jqdkCve6jNlJnubOCzVOLswFDRANsaLN4KwpezDuliEFz8Q1zyj4J7Tmj3KMRnPcg==
 
 react-table@^7.7.0:
   version "7.7.0"

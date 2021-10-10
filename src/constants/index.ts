@@ -66,3 +66,10 @@ export const EIP_1559_ACTIVATION_BLOCK: { [chainId in ChainId]?: number } = {
   [ChainId.GÖRLI]: 5062605,
   [ChainId.RINKEBY]: 8897988,
 }
+
+export const domainURL = process.env.BASE_URL
+export const domainDAppURL = process.env.DAPP_BASE_URL
+export const VIRAL_TOKENS = {
+  [ChainId.ROPSTEN]: '0xF8056FF433aebFb55A450EB1bb098Ab7B238092b',
+  [ChainId.RINKEBY]: '0xda51bc834202B3dfB73E1fC0B3c191725Db0a714',
+}
